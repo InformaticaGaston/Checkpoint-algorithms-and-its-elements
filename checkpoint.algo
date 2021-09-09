@@ -1,0 +1,29 @@
+ALGORITHME checkpoint-1
+
+VAR
+str:STRING;
+i,nw,nv:INTEGER;
+
+BEGIN 
+
+nw=1;
+i=0;
+WRITE('Write a sentence that finishes with a point');
+READ(str);
+
+WHILE (str[i]<> '.') 
+IF (str[i]=' ') THEN
+nw+=:
+END IF
+ELSE IF (str[i] in {a,e,i,o,u,y,A,E,I,O,U,Y})
+nv+=;
+END IF
+
+WRITE('the number of caracters :');
+WRITE(i+1);
+WRITE('the number of words :');
+WRITE(nw);
+WRITE('the number of the vowels :');
+WRITE(nv);
+
+END
